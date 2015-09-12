@@ -838,6 +838,50 @@
 .INCLUDE "DYS_SN20A.inc"			; Select DYS SN20A pinout
 #endif
 
+#if defined(TBS_4A_MAIN)
+.EQU	MODE 	= 	0			; Choose mode. Set to 0 for main motor
+.INCLUDE "TBS_4A.inc"			; Select TBS_4A pinout
+#endif
+
+#if defined(TBS_4A_TAIL)
+.EQU	MODE 	= 	1			; Choose mode. Set to 1 for tail motor
+.INCLUDE "TBS_4A.inc"			; Select TBS_4A pinout
+#endif
+
+#if defined(TBS_4A_MULTI)
+.EQU	MODE 	= 	2			; Choose mode. Set to 2 for multirotor
+.INCLUDE "TBS_4A.inc"			; Select TBS_4A pinout
+#endif
+
+#if defined(TBS_BP4S_MAIN)
+.EQU	MODE 	= 	0			; Choose mode. Set to 0 for main motor
+.INCLUDE "TBS_BP4S.inc"			; Select TBS_BP4S pinout
+#endif
+
+#if defined(TBS_BP4S_TAIL)
+.EQU	MODE 	= 	1			; Choose mode. Set to 1 for tail motor
+.INCLUDE "TBS_BP4S.inc"			; Select TBS_BP4S pinout
+#endif
+
+#if defined(TBS_BP4S_MULTI)
+.EQU	MODE 	= 	2			; Choose mode. Set to 2 for multirotor
+.INCLUDE "TBS_BP4S.inc"			; Select TBS_BP4S pinout
+#endif
+
+#if defined(TBS_BP6S_MAIN)
+.EQU	MODE 	= 	0			; Choose mode. Set to 0 for main motor
+.INCLUDE "TBS_BP6S.inc"			; Select TBS_BP6S pinout
+#endif
+
+#if defined(TBS_BP6S_TAIL)
+.EQU	MODE 	= 	1			; Choose mode. Set to 1 for tail motor
+.INCLUDE "TBS_BP6S.inc"			; Select TBS_BP6S pinout
+#endif
+
+#if defined(TBS_BP6S_MULTI)
+.EQU	MODE 	= 	2			; Choose mode. Set to 2 for multirotor
+.INCLUDE "TBS_BP6S.inc"			; Select TBS_BP6S pinout
+#endif
 
 ;**** **** **** **** ****
 ; TX programming defaults

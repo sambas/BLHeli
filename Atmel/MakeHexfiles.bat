@@ -100,6 +100,12 @@ SET NAME=SUNRISE_BLHELI_SLIM_30A
 call :compile
 SET NAME=DYS_SN20A
 call :compile
+SET NAME=TBS_4A
+call :compile
+SET NAME=TBS_BP4S
+call :compile
+SET NAME=TBS_BP6S
+call :compile
 
 goto :end
 
